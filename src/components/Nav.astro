@@ -1,0 +1,12 @@
+---
+interface Props {
+  meta: string;
+}
+
+const { meta } = Astro.props;
+---
+
+<nav>
+  <div class="nav-brand"><slot /></div>
+  <div class="nav-meta">{meta}</div>
+</nav>
