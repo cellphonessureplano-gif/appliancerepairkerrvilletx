@@ -1,0 +1,17 @@
+{
+  "name": "appliancerepairkerrvilletx",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.9",
+    "@astrojs/vercel": "^8.1.4",
+    "astro": "^5.7.13",
+    "typescript": "^5.9.3"
+  }
+}
